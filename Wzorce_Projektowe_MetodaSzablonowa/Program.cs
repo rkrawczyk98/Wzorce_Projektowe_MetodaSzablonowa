@@ -9,7 +9,7 @@ abstract class ZamowienieTemplatka
     abstract public void DoPlatnosc();
     protected static void DodanieGratisu() => Console.WriteLine("Dodano gratis...");
 
-    public void PrzetwarzajZamowienie(bool czyGratis)
+    public void przetwarzajZamowienie(bool czyGratis)
     {
         _czyGratis = czyGratis;
         DoKoszyk();
